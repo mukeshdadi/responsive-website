@@ -1,0 +1,48 @@
+.services{
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    flex-direction: column;
+}
+.top-section{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content:center;
+    text-align: justify;
+    width: 100%;
+    
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    width: 50%;
+    flex-basis: 30%;
+    background-color: rgb(22, 22, 22);
+    padding: 16px 20px;
+    gap: 6px;
+
+}
+.list:hover{
+    background-color:  rgb(223, 22, 132);
+    color: black;
+}
+.span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media(max-width:600px) {
+    .bottom-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .list{
+        width: 70%;
+    }
+}

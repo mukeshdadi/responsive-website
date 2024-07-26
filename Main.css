@@ -1,0 +1,15 @@
+.main{
+    background-color: black;
+    color: white;
+}
+span{
+    color: rgb(223, 22, 132);
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 2px;
+}
+.heading{
+    border-bottom: 4px solid  rgb(223, 22, 132);
+    max-width: 200px;
+    word-wrap: break-word;
+}

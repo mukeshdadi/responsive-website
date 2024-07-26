@@ -1,0 +1,105 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    min-height: 90vh;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    align-items: center;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 45%;
+    background-color: rgb(43, 42, 42);
+    padding: 10px 14px;
+   
+    height: 400px;
+    
+
+}
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+   
+}
+.icon-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icon-section .icon-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon-list i{
+    color:  rgb(223, 22, 132);
+    margin-right: 10px;
+}
+.icons{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.icons i {
+    width: 30px;
+    height: 30px;
+}
+.download{
+    background-color:rgb(223, 22, 132) ;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact-right h2{
+    margin: 10px;
+}
+.contact-right input ,textarea {
+    width: 350px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    padding: 10px ;
+}
+textarea{
+    height: 80px;
+}
+.submit{
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+@media(max-width:730px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-left{
+        width: 80%;
+    }
+    .contact-right{
+        width: 80%;
+    }
+}
+@media(max-width:320px) {
+    .contact-right {
+        width: 300px;
+        background-color: green;
+    }
+    .contact-right input ,textarea {
+        width: 90%;
+    }
+
+}
